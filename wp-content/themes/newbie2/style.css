@@ -1,0 +1,289 @@
+/*
+theme name: newbie
+Author:nethmi
+Version:1.0
+*/
+
+* body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    
+    
+}
+.site-nav {
+    margin-top: -86px;
+    margin-left: 750px;
+    padding: 0;
+    margin-bottom: 50px;
+  
+    
+}
+
+.site-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+  
+    padding: 5px 10px;
+}
+
+.site-nav ul li{
+/* border-bottom: 2px solid black; */
+}
+
+.site-nav ul li:hover{
+    border-bottom: 2px solid rgb(202, 185, 185);
+    transition: 0.4s;
+}
+.site-nav ul li a{
+    text-decoration: none;
+    color: #333;
+    
+} 
+.site-nav ul li a:hover{
+    color: rgb(202, 185, 185);
+    transition: 0.3s;
+}
+/* footer */
+.site-nav-footer{
+    
+    margin-left: 100px;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.site-nav-footer ul li{
+    list-style-type: none;
+    display: block;
+    /* margin-top: 20px;
+    margin-left: 10px; */
+    /* font-size: 20px; */
+  
+    /* padding: 5px 10px; */
+}
+.row .col .site-nav-footer ul li a{
+    text-decoration: none;
+    color: red;
+    padding: 5px 10px;
+
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+    padding: 5px 10px;
+    background-color: rgb(22, 22, 53);
+    color: rgb(104, 97, 97);
+}
+.col{
+    width: 33%;
+    padding: 20px 60px;
+    align-items: center;
+}
+.md-42 ul li{
+    list-style-type: none;
+    margin-left: -50px;
+    padding: 5px 10px;
+}
+.md-43 ul li{
+    list-style-type: none;
+    margin-left: -50px;
+    padding: 5px 10px;
+}
+.f-h2{
+    border-bottom: 2px solid grey;
+}
+/* home page styling */
+ 
+.home-text{
+    /* text-align: center; */
+    padding: 20px 30px;
+   
+}
+.home-page p{
+    
+    padding: 20px 30px;
+   
+    text-align: center;
+    font-weight: 400;
+    
+}
+.home-img{
+    justify-content: center;
+    margin: 0 84px;
+    cursor: pointer;
+    width: 80%;
+}
+.row-home{
+    margin-top: 84px;
+    background-color: rgb(162, 158, 199);
+    display: flex;
+    gap: 200px;
+    padding: 50px 100px;
+    height: 80px;
+}
+
+.row-home:hover{
+    background-color: rgb(214, 211, 242);
+    transition: 0.5s;
+}
+
+
+button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+ button:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+} 
+
+/* aboutus */
+.aboutus{
+    padding: 0 50px;
+}
+.aboutus h2{
+    letter-spacing: 2px;
+    font-size: 28px;
+    text-align: center;
+}
+.aboutus h5{
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    gap: 50px;
+    margin:120px 60px ;
+    
+
+}
+.card .col-md-4{
+    width: 33.3%;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+   
+}
+.card .col-md-4:hover{
+    background-color: rgb(213, 214, 215);
+    transition: 0.5s;
+    border-radius: 2px;
+}
+
+.card .col-md-4 i{
+    font-size: 68px;
+}
+.fa-code{
+color: red;
+}
+
+.fa-bold{
+    color: purple;
+}
+
+.fa-css3{
+    color: blue;
+}
+.card .col-md-4 h3{
+    font-size: 30px;
+}
+.card .col-md-4 p{
+    font-size: 15px;
+}
+
+/* service */
+.serice-container{
+    margin: 100px 20px;
+}
+
+.row-service{
+    display: flex;
+    gap: 40px;
+}
+.row-service .col-md-6{
+    width: 50%;
+}
+.row-service .col-md-6  img{
+    width: 600px;
+    height: 400px;
+}
+.row-service .col-md-6 .text{
+    text-align: center;
+    align-items: center;
+    margin-top: 75px;
+}
+.row-service .col-md-6 .text h2{
+    font-size: 28px;
+    text-align: center;
+}
+.row-service .col-md-6 .text button{
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    list-style: none;
+    
+}
+
+.fun-button button{
+    width: 100% !important;
+    background-color: rgb(174, 185, 234) !important;
+    border: 2px solid rgb(81, 24, 225) !important;
+}
+
+.row-items{
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+    /* justify-content: space-around; */
+}
+.row-items .col-md-3 img{
+width: 300px;
+height: 200px;
+}
+.collapse{
+    padding: 20px 30px;
+    display: none;
+    /* border: 1px solid black; */
+}
+
+/* our team */
+.team-container h2{
+    text-align: center;
+    font-size: 38px;
+    color: #333;
+}
+.row-team{
+    width: fit-content;
+    display: flex;
+    margin: auto 50px;
+}
+.row-team .card-team{
+    width:30.3%;
+    margin-right: 34px;
+    border: 1px solid rgb(75, 72, 72);
+    border-radius: 8px;
+}
+.row-team .card-team img{
+    width: auto;
+    height: 300px;
+}
+.row-team .lower-text h3{
+    
+    font-weight: 100;
+    font-size: 28px;
+}
+.row-team .lower-text{
+    padding: 5px 10px;
+}
